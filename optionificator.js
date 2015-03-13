@@ -24,7 +24,7 @@
                 value: value
             });
             range.addEventListener('change', function(evt) {
-                updateValue(name, parseFloat(evt.target.value));
+                updateValue(name, parseFloat(range.value));
             });
             return [wrapInput(e('div', {}, [range]), name, description, 'range'), value];
         },
@@ -35,9 +35,20 @@
                 checked: value
             });
             checkbox.addEventListener('change', function(evt) {
-                updateValue(name, evt.target.checked);
+                updateValue(name, checkbox.checked);
             });
             return [wrapInput(checkbox, name, description, 'checkbox'), value];
+        },
+        text: function(name, description, value) {
+            value = value || '';
+            var field = e('input', {
+                type: 'text',
+                value: value
+            });
+            field.addEventListener('change', function(evt) {
+                updateValue(name, field.value);
+            });
+            return [wrapInput(field, name, description, 'text'), value];
         },
         button: function(text, fn) {
             var btn = e('button', {
