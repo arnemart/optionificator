@@ -1,0 +1,21 @@
+{
+  "name": "optionificator",
+  "version": "1.0.0",
+  "description": "Create a set of HTML inputs for manipulating a set of options",
+  "main": "optionificator.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arnemart/optionificator.git"
+  },
+  "keywords": [
+    "html",
+    "dom",
+    "options"
+  ],
+  "author": "Arne Martin Aurlien",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arnemart/optionificator/issues"
+  },
+  "homepage": "https://github.com/arnemart/optionificator"
+}
