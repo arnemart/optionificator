@@ -1,6 +1,6 @@
 {
   "name": "optionificator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create a set of HTML inputs for manipulating a set of options",
   "main": "optionificator.js",
   "repository": {

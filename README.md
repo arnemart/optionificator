@@ -4,6 +4,8 @@ Create a set of HTML inputs for manipulating a set of options.
 
 Supported inputs are slider, checkbox, text, button, and you can also add unfiltered html if you want.
 
+See a demo at <http://arnemart.github.io/optionificator/>.
+
 ## Installation
 
 ```
